@@ -3,6 +3,7 @@ import '../css/App.css';
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import UnderConstruction from '../storage/img/construction.jpg';
+import About from "./components/About";
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <div className="container">
-            <img src={UnderConstruction} width="100%"/>
+            <About/>
         </div>
       </div>
     );
