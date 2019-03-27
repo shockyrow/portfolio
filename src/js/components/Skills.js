@@ -151,24 +151,13 @@ class Skills extends Component {
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
                         <h3 className="flex-fill text-center opensans-title text-danger p-3">
-                            Skills
+                            Databases
                         </h3>
 
                         <div className="col">
                             <div className="my-3">
                                 <h6 className="opensans-title">
-                                    Tajik (Native)
-                                </h6>
-
-                                <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '100%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="my-3">
-                                <h6 className="opensans-title">
-                                    Persian
+                                    MySQL
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
@@ -179,11 +168,33 @@ class Skills extends Component {
 
                             <div className="my-3">
                                 <h6 className="opensans-title">
-                                    Turkish
+                                    MsSQL
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="my-3">
+                                <h6 className="opensans-title">
+                                    Mongo DB
+                                </h6>
+
+                                <div className="progress rounded" style={{'height': '8px'}}>
+                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="my-3">
+                                <h6 className="opensans-title">
+                                    Oracle DB
+                                </h6>
+
+                                <div className="progress rounded" style={{'height': '8px'}}>
+                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
