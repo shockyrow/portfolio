@@ -14,32 +14,22 @@ class Welcome extends Component {
                         <img src={TheGuy} className="w-100" alt="Ibrokhim Shokirov"/>
                     </div>
 
-                    <div className="col d-flex flex-column justify-content-center align-items-center text-center">
-                        <div className="display-4 oleo-script-font font-weight-bold text-primary">
+                    <div className="col d-flex flex-column justify-content-center align-items-center text-center mt-3">
+                        <h2 className="display-4 pacifico-font font-weight-bold text-warning">
                             Ibrokhim Shokirov
-                        </div>
+                        </h2>
 
-                        <h4 className="pacifico-font text-warning">
+                        <h5 className="pacifico-font text-muted">
                             Computer Engineer
-                        </h4>
+                        </h5>
 
-                        <a href={CV} className="btn btn-lg btn-dark my-3" download="IbrokhimShokirovCV">
-                            Download CV
+                        <a href={CV} className="btn btn-secondary text-light shadow my-3" download="IbrokhimShokirovCV">
+                            <span className="pr-3">
+                                <i className="fa fa-download">
+                                </i>
+                            </span>
+                            Download Resume
                         </a>
-                    </div>
-                </div>
-
-                <div className="card shadow-lg border-0">
-                    <div className="card-body text-justify">
-                        <h5>
-                            I am a {this.age} years old Computer Engineer from Tajikistan. Currently living in
-                            Ankara/Turkey. I was programming since 2008. I started programming with C/C++.
-                        </h5>
-
-                        <h5 className="m-0">
-                            I am a {this.age} years old Computer Engineer from Tajikistan. Currently living in
-                            Ankara/Turkey. I was programming since 2008. I started programming with C/C++.
-                        </h5>
                     </div>
                 </div>
             </Fragment>
