@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Logo from '../../storage/img/is_logo.png';
+import {Link} from "react-router-dom";
+import Logo from '../../storage/img/is_logo_inverted.png';
 
 class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow rounded">
-                <a className="navbar-brand" href="#">
-                    <img src={Logo} width="30" height="30" className="bg-dark rounded p-2" alt=""/>
-                </a>
+                <Link className="navbar-brand" to="/">
+                    <img src={Logo} width="30" height="30" className="p-1" alt=""/>
+                </Link>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -18,10 +19,52 @@ class Navbar extends Component {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">
                                 Home
-                            </a>
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about/">
+                                About
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/education/">
+                                Education
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/experience/">
+                                Experience
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/experience/">
+                                Skills
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/experience/projects">
+                                Projects
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/honors/">
+                                Honors & Award
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact/">
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>
