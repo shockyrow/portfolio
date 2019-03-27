@@ -6,9 +6,9 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded">
-                <Link className="navbar-brand" to="/">
+                <a className="navbar-brand" href="#">
                     <img src={Logo} width="30" height="30" className="p-1" alt=""/>
-                </Link>
+                </a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -20,51 +20,51 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">
+                            <a className="nav-link" href="#">
                                 Home
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about/">
+                            <a className="nav-link" href="#about">
                                 About
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/education/">
+                            <a className="nav-link" href="#">
                                 Education
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/experience/">
+                            <a className="nav-link" href="#">
                                 Experience
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/skills/">
+                            <a className="nav-link" href="#skills">
                                 Skills
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/experience/projects">
+                            <a className="nav-link" href="#">
                                 Projects
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/honors/">
+                            <a className="nav-link" href="#">
                                 Honors & Award
-                            </Link>
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact/">
+                            <a className="nav-link" href="#">
                                 Contact
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>

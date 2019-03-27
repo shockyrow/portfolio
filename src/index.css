@@ -24,3 +24,8 @@ code {
 .oleo-script-font {
   font-family: 'Oleo Script', cursive;
 }
+
+.opensans-title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}

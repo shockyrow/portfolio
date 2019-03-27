@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../../css/About.css';
 import moment from 'moment';
 
 class Skills extends Component {
@@ -7,18 +6,18 @@ class Skills extends Component {
 
     render() {
         return (
-            <div className="Skills d-flex flex-wrap align-items-stretch">
-                <div className="col-md">
+            <div className="Skills row py-3" id="skills">
+                <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h1 className="flex-fill text-center pacifico-font text-primary p-3">
+                        <h3 className="flex-fill text-center opensans-title text-primary p-3">
                             Programming
-                        </h1>
+                        </h3>
 
                         <div className="col">
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     C# .Net
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-primary" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -27,9 +26,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     C/C++
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-primary" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -38,9 +37,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Java
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-primary" role="progressbar" style={{'width': '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
@@ -49,9 +48,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     PhP
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-primary" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -60,9 +59,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Web (HTML5, CSS3, JS)
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-primary" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
@@ -73,17 +72,17 @@ class Skills extends Component {
                     </div>
                 </div>
 
-                <div className="col-md">
+                <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h1 className="flex-fill text-center pacifico-font text-warning p-3">
+                        <h3 className="flex-fill text-center opensans-title text-warning p-3">
                             Languages
-                        </h1>
+                        </h3>
 
                         <div className="col">
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Tajik (Native)
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '100%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -92,9 +91,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Persian
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
@@ -103,9 +102,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Turkish
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
@@ -114,9 +113,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     English
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -125,9 +124,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Russian
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '65%'}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
@@ -136,9 +135,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Arabic
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-warning" role="progressbar" style={{'width': '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
@@ -149,17 +148,17 @@ class Skills extends Component {
                     </div>
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h1 className="flex-fill text-center pacifico-font text-danger p-3">
+                        <h3 className="flex-fill text-center opensans-title text-danger p-3">
                             Skills
-                        </h1>
+                        </h3>
 
                         <div className="col">
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Tajik (Native)
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-danger" role="progressbar" style={{'width': '100%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -168,9 +167,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Persian
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-danger" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
@@ -179,9 +178,9 @@ class Skills extends Component {
                             </div>
 
                             <div className="my-3">
-                                <h5 className="font-weight-bold">
+                                <h6 className="opensans-title">
                                     Turkish
-                                </h5>
+                                </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
                                     <div className="progress-bar bg-danger" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
