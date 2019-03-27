@@ -9,9 +9,9 @@ class Skills extends Component {
             <div className="Skills row py-3" id="skills">
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h3 className="flex-fill text-center opensans-title text-primary p-3">
+                        <h5 className="flex-fill text-center opensans-title text-primary p-3">
                             Programming
-                        </h3>
+                        </h5>
 
                         <div className="col">
                             <div className="my-3">
@@ -74,9 +74,9 @@ class Skills extends Component {
 
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h3 className="flex-fill text-center opensans-title text-warning p-3">
+                        <h5 className="flex-fill text-center opensans-title text-warning p-3">
                             Languages
-                        </h3>
+                        </h5>
 
                         <div className="col">
                             <div className="my-3">
@@ -150,9 +150,9 @@ class Skills extends Component {
 
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h3 className="flex-fill text-center opensans-title text-danger p-3">
+                        <h5 className="flex-fill text-center opensans-title text-danger p-3">
                             Databases
-                        </h3>
+                        </h5>
 
                         <div className="col">
                             <div className="my-3">
