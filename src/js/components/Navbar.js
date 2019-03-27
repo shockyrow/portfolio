@@ -5,7 +5,7 @@ import Logo from '../../storage/img/is_logo_inverted.png';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow rounded">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded">
                 <Link className="navbar-brand" to="/">
                     <img src={Logo} width="30" height="30" className="p-1" alt=""/>
                 </Link>
@@ -44,7 +44,7 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/experience/">
+                            <Link className="nav-link" to="/skills/">
                                 Skills
                             </Link>
                         </li>
