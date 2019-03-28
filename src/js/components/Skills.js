@@ -9,7 +9,7 @@ class Skills extends Component {
             <div className="Skills row py-3" id="skills">
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h5 className="flex-fill text-center opensans-title text-primary p-3">
+                        <h5 className="flex-fill text-center opensans-title p-3">
                             Programming
                         </h5>
 
@@ -20,7 +20,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-primary" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-primary" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-primary" role="progressbar" style={{'width': '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-primary" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-primary" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ class Skills extends Component {
 
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h5 className="flex-fill text-center opensans-title text-warning p-3">
+                        <h5 className="flex-fill text-center opensans-title p-3">
                             Languages
                         </h5>
 
@@ -85,7 +85,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '100%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '100%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '65%'}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '65%'}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-warning" role="progressbar" style={{'width': '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ class Skills extends Component {
 
                 <div className="col-md-4 my-3">
                     <div className="bg-white rounded shadow-lg h-100">
-                        <h5 className="flex-fill text-center opensans-title text-danger p-3">
+                        <h5 className="flex-fill text-center opensans-title p-3">
                             Databases
                         </h5>
 
@@ -161,7 +161,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@ class Skills extends Component {
                                 </h6>
 
                                 <div className="progress rounded" style={{'height': '8px'}}>
-                                    <div className="progress-bar bg-danger" role="progressbar" style={{'width': '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    <div className="progress-bar" role="progressbar" style={{'width': '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
                             </div>

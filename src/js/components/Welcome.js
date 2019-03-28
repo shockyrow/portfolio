@@ -9,21 +9,23 @@ class Welcome extends Component {
     render() {
         return (
             <Fragment>
-                <div className="d-flex flex-wrap flex-row-reverse justify-content-center">
-                    <div className="col-md-6 p-5">
-                        <img src={TheGuy} className="img-fluid rounded-circle shadow-lg p-1" alt="Ibrokhim Shokirov"/>
+                <div className="d-flex flex-column justify-content-center">
+                    <div className="d-flex justify-content-center">
+                        <div className="col-8 col-md-4 pt-5">
+                            <img src={TheGuy} className="img-fluid rounded-circle shadow-lg" alt="Ibrokhim Shokirov"/>
+                        </div>
                     </div>
 
-                    <div className="col d-flex flex-column justify-content-center align-items-center text-center mt-5">
-                        <h2 className="display-4 pacifico-font font-weight-bold text-warning">
+                    <div className="d-flex flex-column justify-content-center align-items-center text-center mt-5">
+                        <h2 className="display-4 pacifico-font font-weight-bold text-primary">
                             Ibrokhim Shokirov
                         </h2>
 
-                        <h5 className="pacifico-font text-muted">
+                        <h5 className="pacifico-font">
                             Computer Engineer
                         </h5>
 
-                        <a href={CV} className="btn btn-lg btn-secondary text-light shadow my-5" download="IbrokhimShokirovCV">
+                        <a href={CV} className="btn btn-lg bg-light shadow my-5" download="IbrokhimShokirovCV">
                             <span className="pr-3">
                                 <i className="fa fa-download">
                                 </i>
