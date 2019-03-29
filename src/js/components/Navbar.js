@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
-import {Link} from "react-router-dom";
 import Logo from '../../storage/img/is_logo_inverted.png';
+
+export const HOME_LINK = "home";
+export const ABOUT_LINK = "about";
+export const EDUCATIONS_LINK = "educations";
+export const EXPERIENCES_LINK = "experiences";
+export const LANGUAGES_LINK = "languages";
+export const SKILLS_LINK = "skills";
+export const PROJECTS_LINK = "projects";
+export const ACCOMPLISHMENTS_LINK = "accomplishments";
+export const CONTACT_LINK = "contact";
 
 class Navbar extends Component {
     render() {
@@ -26,43 +35,49 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">
+                            <a className="nav-link" href={"#" + ABOUT_LINK}>
                                 About
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Education
+                            <a className="nav-link" href={"#" + EDUCATIONS_LINK}>
+                                Educations
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Experience
+                            <a className="nav-link" href={"#" + EXPERIENCES_LINK}>
+                                Experiences
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#skills">
+                            <a className="nav-link" href={"#" + LANGUAGES_LINK}>
+                                Languages
+                            </a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link" href={"#" + SKILLS_LINK}>
                                 Skills
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href={"#" + PROJECTS_LINK}>
                                 Projects
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Honors & Award
+                            <a className="nav-link" href={"#" + ACCOMPLISHMENTS_LINK}>
+                                Accomplishments
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href={"#" + CONTACT_LINK}>
                                 Contact
                             </a>
                         </li>

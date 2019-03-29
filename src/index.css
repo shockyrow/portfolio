@@ -13,6 +13,25 @@ code {
     monospace;
 }
 
+.shadowed-text {
+  text-shadow: 0 4px 8px silver;
+}
+
+.block-title {
+  display: inline-block;
+  position: absolute;
+  top: -16px;
+  letter-spacing: 2px;
+}
+
+.social-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+}
+
 .pacifico-font {
   font-family: 'Pacifico', cursive;
 }
