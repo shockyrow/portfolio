@@ -13,6 +13,23 @@ code {
     monospace;
 }
 
+.pacifico-font {
+  font-family: 'Pacifico', cursive;
+}
+
+.corben-font {
+  font-family: 'Corben', cursive;
+}
+
+.oleo-script-font {
+  font-family: 'Oleo Script', cursive;
+}
+
+.opensans-title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
 .shadowed-text {
   text-shadow: 0 4px 8px silver;
 }
@@ -32,19 +49,10 @@ code {
   height: 42px;
 }
 
-.pacifico-font {
-  font-family: 'Pacifico', cursive;
-}
-
-.corben-font {
- font-family: 'Corben', cursive;
-}
-
-.oleo-script-font {
-  font-family: 'Oleo Script', cursive;
-}
-
-.opensans-title {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
+.custom-indicator {
+  background-color: black !important;
+  width: 12px !important;
+  height: 12px !important;
+  border: 4px black !important;
+  border-radius: 50%;
 }

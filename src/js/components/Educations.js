@@ -10,7 +10,7 @@ class Educations extends Component {
             <Fragment>
                 <InfoBlock title={"Educations"} content={(
                     <Fragment>
-                        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                        <div id="educationCarousel" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <div>
@@ -22,11 +22,13 @@ class Educations extends Component {
                                         </h4>
                                         <h6 className="d-flex opensans-title m-0">
                                             <div>
-                                                GPA: <span className="text-muted">5.0/5</span>
+                                                GPA:
+                                                <div className="text-muted">5.0/5</div>
                                             </div>
 
                                             <div className="px-2">
-                                                Duration: <span className="text-muted">2008 - 2013</span>
+                                                Duration:
+                                                <div className="text-muted">2008 - 2013</div>
                                             </div>
                                         </h6>
                                         <h5 className="pacifico-font text-muted">
@@ -48,11 +50,13 @@ class Educations extends Component {
                                         </h4>
                                         <h6 className="d-flex opensans-title">
                                             <div>
-                                                GPA: <span className="text-muted">2.85/4</span>
+                                                GPA:
+                                                <div className="text-muted">2.85/4</div>
                                             </div>
 
                                             <div className="px-2">
-                                                Duration: <span className="text-muted">2014 - 2018</span>
+                                                Duration:
+                                                <div className="text-muted">2014 - 2018</div>
                                             </div>
                                         </h6>
                                         <h5>
@@ -62,6 +66,10 @@ class Educations extends Component {
                                     </div>
                                 </div>
                             </div>
+                            <ol className="carousel-indicators position-static mb-0">
+                                <li data-target="#educationCarousel" data-slide-to="0" className="custom-indicator active"></li>
+                                <li data-target="#educationCarousel" data-slide-to="1" className="custom-indicator"></li>
+                            </ol>
                         </div>
                     </Fragment>
                 )}/>
