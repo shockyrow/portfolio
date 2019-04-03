@@ -15,7 +15,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href={"#" + HOME_LINK}>
                     <img src={Logo} width="30" height="30" className="p-1" alt=""/>
                 </a>
 
@@ -29,7 +29,7 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href={"#" + HOME_LINK}>
                                 Home
                             </a>
                         </li>
