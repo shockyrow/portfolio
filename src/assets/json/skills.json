@@ -90,11 +90,15 @@
       "progress": 80
     },
     {
-      "name": "CentOS",
-      "progress": 80
+      "name": "Kali",
+      "progress": 75
     },
     {
       "name": "Mint",
+      "progress": 80
+    },
+    {
+      "name": "CentOS",
       "progress": 80
     }
   ]

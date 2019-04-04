@@ -8,7 +8,7 @@ class Languages extends Component {
             (item) => (
                 <Fragment>
                     <div className="col-sm-6 col-md-4 col-lg-3 my-2">
-                        <div className="btn btn-block btn-light p-2 shadow-sm border rounded">
+                        <div className="btn btn-block btn-light border shadow-sm p-2">
                             <h6 className="opensans-title">
                                 {item["name"]}
                             </h6>
