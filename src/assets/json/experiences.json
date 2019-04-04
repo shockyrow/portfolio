@@ -1,0 +1,33 @@
+{
+  "title": "Experiences",
+  "children": [
+    {
+      "title": "Php Developer",
+      "company": "Paysera",
+      "location": "Ankara/TURKEY",
+      "duration": "2018 - NOW",
+      "description": "Description and responsibilities here!"
+    },
+    {
+      "title": "Web Security Analyst & Secure Developer",
+      "company": "BEAM Teknoloji A. Ş.",
+      "location": "Ankara/TURKEY",
+      "duration": "2017 - 2018",
+      "description": "Description and responsibilities here!"
+    },
+    {
+      "title": "Java Developer",
+      "company": "PTT Genel Müdürlüğü",
+      "location": "Ankara/TURKEY",
+      "duration": "Summer 2016",
+      "description": "Description and responsibilities here!"
+    },
+    {
+      "title": "C# Developer",
+      "company": "İm Park Eğitim Bilişim Ltd. Şti.",
+      "location": "Ankara/TURKEY",
+      "duration": "January 2016 - May 2016",
+      "description": "Description and responsibilities here!"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Languages",
+  "children": [
+    {
+      "name": "Tajik",
+      "progress": 100
+    },
+    {
+      "name": "Persian",
+      "progress": 95
+    },
+    {
+      "name": "English",
+      "progress": 88
+    },
+    {
+      "name": "Turkish",
+      "progress": 85
+    },
+    {
+      "name": "Dari",
+      "progress": 78
+    },
+    {
+      "name": "Russian",
+      "progress": 55
+    },
+    {
+      "name": "Arabic",
+      "progress": 25
+    }
+  ]
+}

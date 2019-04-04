@@ -1,0 +1,21 @@
+{
+  "title": "Educations",
+  "children": [
+    {
+      "title": "BSc. Degree in Computer Engineering",
+      "duration": "2014 - 2018",
+      "location": "Ankara/TURKEY",
+      "institution": "Gazi University",
+      "description": "Description and activities here!",
+      "GPA": "2.85/4"
+    },
+    {
+      "title": "High School",
+      "duration": "2008 - 2013",
+      "location": "Dushanbe/TAJIKISTAN",
+      "institution": "LYCEUM FOR GIFTED STUDENTS",
+      "description": "Description and activities here!",
+      "GPA": "5.0/5"
+    }
+  ]
+}

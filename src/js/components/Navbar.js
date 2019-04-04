@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../../storage/img/is_logo_inverted.png';
+import Logo from '../../assets/img/is_logo_inverted.png';
 
 export const HOME_LINK = "home";
 export const ABOUT_LINK = "about";

@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import CV from '../../storage/other/CV.pdf';
+import CV from '../../assets/other/CV.pdf';
 import moment from 'moment';
 
 class Welcome extends Component {

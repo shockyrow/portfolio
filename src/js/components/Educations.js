@@ -4,8 +4,13 @@ import InfoBlock from "./InfoBlock";
 
 class Educations extends Component {
     age = moment().diff(moment([1994, 6, 28]), 'year');
+    data = require('../../assets/json/educations');
 
     render() {
+        let children = data['datas'].map(
+            (item)
+        );
+
         return (
             <Fragment>
                 <InfoBlock title={"Educations"} content={(
@@ -25,8 +30,7 @@ class Educations extends Component {
                                 </div>
                             </h6>
                             <h5>
-                                My university life had little less social activities so I had more time to develop
-                                myself.
+                                Description and activities here!
                             </h5>
                         </div>
 
@@ -51,8 +55,7 @@ class Educations extends Component {
 
                             </h5>
                             <h5>
-                                My high school life was full of social and educational activities. Some of my
-                                achievements from these activities are listed in the achievement section below.
+                                Description and activities here!
                             </h5>
                         </div>
                     </Fragment>
