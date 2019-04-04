@@ -1,1 +1,101 @@
-{}
+{
+  "title": "Skills",
+  "children": [
+    {
+      "name": "C/C++",
+      "progress": 95
+    },
+    {
+      "name": "C#",
+      "progress": 75
+    },
+    {
+      "name": "Java",
+      "progress": 80
+    },
+    {
+      "name": "Php",
+      "progress": 95
+    },
+    {
+      "name": "Python",
+      "progress": 65
+    },
+    {
+      "name": "Delphi",
+      "progress": 70
+    },
+    {
+      "name": "HTML5",
+      "progress": 95
+    },
+    {
+      "name": "CSS3",
+      "progress": 95
+    },
+    {
+      "name": "JavaScript",
+      "progress": 90
+    },
+    {
+      "name": "TypeScript",
+      "progress": 70
+    },
+    {
+      "name": "SQL",
+      "progress": 80
+    },
+    {
+      "name": "Spring",
+      "progress": 60
+    },
+    {
+      "name": "Spring Boot",
+      "progress": 70
+    },
+    {
+      "name": "Symfony",
+      "progress": 80
+    },
+    {
+      "name": "Laravel",
+      "progress": 90
+    },
+    {
+      "name": "MySQL",
+      "progress": 90
+    },
+    {
+      "name": "MSSQL",
+      "progress": 85
+    },
+    {
+      "name": "Oracle DB",
+      "progress": 65
+    },
+    {
+      "name": "MongoDB",
+      "progress": 75
+    },
+    {
+      "name": "SQLite",
+      "progress": 65
+    },
+    {
+      "name": "PostgreSQL",
+      "progress": 75
+    },
+    {
+      "name": "Ubuntu",
+      "progress": 80
+    },
+    {
+      "name": "CentOS",
+      "progress": 80
+    },
+    {
+      "name": "Mint",
+      "progress": 80
+    }
+  ]
+}
