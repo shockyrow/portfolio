@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "./Navbar";
-import '../../css/Header.scss';
+import '../../assets/scss/Header.scss';
 
 class Header extends Component {
     render() {

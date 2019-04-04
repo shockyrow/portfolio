@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
-import InfoBlock from "./InfoBlock";
-import Data from "../../assets/json/languages";
+import InfoBlock from "../InfoBlock";
+import Data from "../../../assets/json/languages";
 
 class Languages extends Component {
     render() {

@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import Header from "./components/Header";
-import Welcome from "./components/Welcome";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
-import Educations from "./components/Educations";
-import Experiences from "./components/Experiences";
-import Languages from "./components/Languages";
+import Header from "../Components/Header";
+import Welcome from "../Components/Sections/Welcome";
+import About from "../Components/Sections/About";
+import Skills from "../Components/Sections/Skills";
+import Footer from "../Components/Footer";
+import Educations from "../Components/Sections/Educations";
+import Experiences from "../Components/Sections/Experiences";
+import Languages from "../Components/Sections/Languages";
 import {
     ABOUT_LINK,
     EDUCATIONS_LINK,
@@ -17,7 +17,7 @@ import {
     PROJECTS_LINK,
     ACCOMPLISHMENTS_LINK,
     CONTACT_LINK
-} from "./components/Navbar";
+} from "../Components/Navbar";
 
 class App extends Component {
     render() {

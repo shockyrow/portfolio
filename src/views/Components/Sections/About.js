@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import moment from 'moment';
-import InfoBlock from "./InfoBlock";
+import InfoBlock from "../InfoBlock";
 
 class About extends Component {
     age = moment().diff(moment([1994, 6, 28]), 'year');

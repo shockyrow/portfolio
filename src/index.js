@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './js/App';
+import './assets/scss/global.scss';
+import App from './views/HomePage/App';
 import * as serviceWorker from './serviceWorker';
 import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';

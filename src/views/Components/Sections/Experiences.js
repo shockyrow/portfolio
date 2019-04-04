@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
-import InfoBlock from "./InfoBlock";
-import Data from '../../assets/json/experiences';
+import InfoBlock from "../InfoBlock";
+import Data from '../../../assets/json/experiences';
 
 class Experiences extends Component {
     render() {
