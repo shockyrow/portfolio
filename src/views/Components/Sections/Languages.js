@@ -13,9 +13,10 @@ class Languages extends Component {
                                 {item["name"]}
                             </h6>
 
-                            <div className="progress rounded" style={{'height': '8px'}}>
-                                <div className="progress-bar" role="progressbar" style={{'width': item["progress"] + '%'}}
+                            <div className="progress rounded" style={{height: '14px', boxShadow: 'inset 0 0 2px 0 silver'}}>
+                                <div className="progress-bar rounded" role="progressbar" style={{width: item["progress"] + '%'}}
                                      aria-valuenow={item["progress"]} aria-valuemin="0" aria-valuemax="100">
+                                    <small className="font-weight-bold">{item["progress"] + '%'}</small>
                                 </div>
                             </div>
                         </div>
