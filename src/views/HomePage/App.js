@@ -1,60 +1,48 @@
-import React, {Component} from 'react';
-import Header from "../Components/Header";
-import Welcome from "../Components/Sections/Welcome";
-import About from "../Components/Sections/About";
-import Skills from "../Components/Sections/Skills";
-import Footer from "../Components/Footer";
-import Educations from "../Components/Sections/Educations";
-import Experiences from "../Components/Sections/Experiences";
-import Languages from "../Components/Sections/Languages";
-import {
-    ABOUT_LINK,
-    EDUCATIONS_LINK,
-    HOME_LINK,
-    EXPERIENCES_LINK,
-    LANGUAGES_LINK,
-    SKILLS_LINK,
-    PROJECTS_LINK,
-    ACCOMPLISHMENTS_LINK,
-    CONTACT_LINK
-} from "../Components/Navbar";
+import React, {Component, Fragment} from 'react';
+import AboutMe from '../../assets/img/aboutme.png';
 
 class App extends Component {
     render() {
         return (
-            <div className="App" id={HOME_LINK}>
-                <Header/>
+            <Fragment>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top p-0">
+                    <button className="navbar-toggler ml-auto btn btn-lg btn-dark border-0 border-dark" type="button" data-toggle="collapse"
+                            data-target="#navbarMenu" aria-controls="navbarMenu"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
-                <div className="container">
-                    <Welcome/>
-                    <div className="pb-3 pt-4" id={ABOUT_LINK}>
-                        <About/>
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                        <ul className="navbar-nav align-items-center">
+                            <li className="nav-item btn-lg active">
+                                <a className="nav-link" href={""}>
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link btn-lg" href={"#"}>
+                                    About Me
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div className="pb-3 pt-4" id={EDUCATIONS_LINK}>
-                        <Educations/>
+                </nav>
+
+                <div className="min-vh-100 d-flex justify-content-center align-items-center">
+                    <div className="p-3">
+                        <img src={AboutMe} className="w-100" alt=""/>
                     </div>
-                    <div className="pb-3 pt-4" id={EXPERIENCES_LINK}>
-                        <Experiences/>
-                    </div>
-                    <div className="pb-3 pt-4" id={LANGUAGES_LINK}>
-                        <Languages/>
-                    </div>
-                    <div className="pb-3 pt-4" id={SKILLS_LINK}>
-                        <Skills/>
-                    </div>
-                    <div className="pb-3 pt-4" id={PROJECTS_LINK}>
-                        <Educations/>
-                    </div>
-                    <div className="pb-3 pt-4" id={ACCOMPLISHMENTS_LINK}>
-                        <Educations/>
-                    </div>
-                    <div className="pb-3 pt-4" id={CONTACT_LINK}>
-                        <Educations/>
+                    <div className="bg-dark rounded shadow p-3">
+                        Hello!
                     </div>
                 </div>
 
-                <Footer/>
-            </div>
+                <div className="min-vh-100 d-flex justify-content-center align-items-center">
+                    <div className="p-3">
+                        <img src={AboutMe} className="w-100" alt=""/>
+                    </div>
+                </div>
+            </Fragment>
         );
     }
 }
