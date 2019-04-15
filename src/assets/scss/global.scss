@@ -12,8 +12,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #100e17;
-  color: #fff;
 }
 
 code {
@@ -40,18 +38,4 @@ code {
 
 .shadowed-text {
   text-shadow: 0 4px 8px silver;
-}
-
-.bg-dark {
-  background-color: #202026 !important;
-}
-
-.navbar-dark {
-  background-color: #202026 !important;
-}
-
-.navbar-toggler {
-  -webkit-box-shadow: 0 0 0 #000 !important;
-  -moz-box-shadow: 0 0 0 #000 !important;
-  box-shadow: 0 0 0 #000 !important;
 }
