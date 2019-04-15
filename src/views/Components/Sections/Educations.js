@@ -13,23 +13,20 @@ class Educations extends Component {
                     ) : null}
 
                     <div>
-                        <h6 className="pacifico-font">
+                        <h6 className="pacifico-font text-secondary">
                             {item["institution"]}
-                            <span className="text-muted pl-2">
-                            {item["duration"]}
-                        </span>
+                            <span className="text-muted pl-2">{item["duration"]}</span>
                         </h6>
+
                         <h4 className="opensans-title text-left shadowed-text">
                             {item["title"]}
                         </h4>
-                        <h6 className="d-flex opensans-title">
-                            <div>
-                                GPA:
-                                <span className="text-muted pl-2">
-                                {item["GPA"]}
-                            </span>
-                            </div>
+
+                        <h6 className="d-flex opensans-title text-secondary">
+                            GPA:
+                            <span className="text-muted pl-2">{item["GPA"]}</span>
                         </h6>
+
                         <h5>
                             {item["description"]}
                         </h5>

@@ -13,15 +13,18 @@ class Experiences extends Component {
                     ) : null}
 
                     <div>
-                        <h6 className="pacifico-font">
+                        <h6 className="pacifico-font text-secondary">
                             {item["company"]}
                         </h6>
+
                         <h4 className="opensans-title text-left shadowed-text">
                             {item["title"]}
                         </h4>
-                        <h6 className="d-flex opensans-title text-muted">
+
+                        <h6 className="d-flex opensans-title text-muted small">
                             {item["duration"]}
                         </h6>
+
                         <h5>
                             {item["description"]}
                         </h5>
