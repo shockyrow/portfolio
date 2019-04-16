@@ -34,7 +34,7 @@ class Welcome extends Component {
 
                         <div className="text-center">
                             <a href={CV} className="btn btn-lg btn-outline-primary shadow mt-5" download="IbrokhimShokirovCV">
-                                <span className="px-1"><i className="fa fa-download"></i></span>
+                                <span className="px-1"><i className="fa fa-download"/></span>
                                 <span className="px-1">CV / Resume</span>
                             </a>
                         </div>
