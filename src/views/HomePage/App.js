@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from "../Components/Header";
 import Welcome from "../Components/Sections/Welcome";
 import About from "../Components/Sections/About";
 import Skills from "../Components/Sections/Skills";
@@ -23,8 +22,6 @@ class App extends Component {
     render() {
         return (
             <div className="App" id={HOME_LINK}>
-                <Header/>
-
                 <div className="container">
                     <Welcome/>
                     <div className="pb-3 pt-4" id={ABOUT_LINK}>

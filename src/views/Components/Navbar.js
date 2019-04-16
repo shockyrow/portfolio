@@ -14,7 +14,7 @@ export const CONTACT_LINK = "contact";
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg rounded">
                 <a className="navbar-brand" href={"#" + HOME_LINK}>
                     <img src={Logo} width="30" height="30" className="p-1" alt=""/>
                 </a>

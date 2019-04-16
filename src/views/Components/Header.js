@@ -5,7 +5,7 @@ import '../../assets/scss/Header.scss';
 class Header extends Component {
     render() {
         return (
-            <div className="Header pt-3 bg-primary">
+            <div className="Header pt-3 bg-light position-absolute" style={{top: 0, width: '100%'}}>
                 <div className="container">
                     <Navbar/>
                 </div>
