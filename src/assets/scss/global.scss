@@ -58,3 +58,8 @@ code {
   border: 4px black !important;
   border-radius: 50%;
 }
+
+.bubbleChat {
+  @extend .badge, .badge-pill, .p-3;
+  border-bottom-left-radius: 24px !important;
+}

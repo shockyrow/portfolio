@@ -27,7 +27,7 @@ class Navbar extends Component {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <a className="nav-link" href={"#" + HOME_LINK}>
                                 Home

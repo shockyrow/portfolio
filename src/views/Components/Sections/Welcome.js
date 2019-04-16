@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import CV from '../../../assets/other/CV.pdf';
 import moment from 'moment';
+import ReactTypingEffect from 'react-typing-effect';
 
 class Welcome extends Component {
     age = moment().diff(moment([1994, 6, 28]), 'year');
@@ -15,16 +16,18 @@ class Welcome extends Component {
                         </h2>
 
                         <h5 className="pacifico-font text-muted shadowed-text">
-                            Computer Engineer
+                            <ReactTypingEffect
+                                text={["Computer Engineer", "Web Developer", "Web Security Analyst"]}
+                                speed={100}
+                            />
                         </h5>
 
-                        <a href={CV} className="btn btn-lg btn-outline-dark shadow mt-5" download="IbrokhimShokirovCV">
-                            <span className="pr-3">
-                                <i className="fa fa-download">
-                                </i>
-                            </span>
-                            CV / Resume
-                        </a>
+                        <div className="text-center">
+                            <a href={CV} className="btn btn-lg btn-outline-dark shadow mt-5" download="IbrokhimShokirovCV">
+                                <span className="px-1"><i className="fa fa-download"></i></span>
+                                <span className="px-1">CV / Resume</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </Fragment>

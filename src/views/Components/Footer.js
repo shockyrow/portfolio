@@ -4,7 +4,7 @@ import '../../assets/scss/Footer.scss';
 class Footer extends Component {
     render() {
         return (
-            <div className="Footer bg-warning">
+            <div className="Footer bg-primary">
                 <div className="container">
                     <h2 className="pacifico-font text-center text-light m-0">
                         Just Do It!

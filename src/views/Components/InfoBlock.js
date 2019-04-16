@@ -7,7 +7,7 @@ class InfoBlock extends Component {
             <div className="card border-white shadow-lg">
                 <div className="card-body text-justify">
                     <div className="py-2">
-                        <h5 className="opensans-title bg-info text-light shadow-sm rounded py-1 px-3 block-title">
+                        <h5 className="opensans-title bg-primary text-light shadow-sm rounded py-1 px-3 block-title">
                             {this.props.title}
                         </h5>
                     </div>
