@@ -14,7 +14,7 @@ class ProjectItem extends Component {
 
         return (
             <div>
-                <h4 className="opensans-title text-left shadowed-text">
+                <h4 className="text-left font-weight-bold shadowed-text">
                     {this.props.title}
                 </h4>
 
