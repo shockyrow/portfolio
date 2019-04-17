@@ -5,9 +5,9 @@ class ProjectItem extends Component {
     render() {
         let details = Object.keys(this.props.details).map(
             (item, index) => (
-                <small className="d-flex text-secondary">
-                    <span className="text-capitalize">{item}</span>:
-                    <span className="text-muted pl-2">{Array.isArray(this.props.details[item]) ? this.props.details[item].join(', ') : this.props.details[item]}</span>
+                <small className="d-flex">
+                    <span className="text-capitalize text-secondary">{item}</span>:
+                    <span className="pl-2 text-info">{Array.isArray(this.props.details[item]) ? this.props.details[item].join(', ') : this.props.details[item]}</span>
                 </small>
             )
         );
