@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import InfoBlock from "../InfoBlock";
+import SectionItem from "../SectionItem";
 import Data from '../../../assets/json/educations';
 
 class Educations extends Component {
@@ -37,7 +37,7 @@ class Educations extends Component {
 
         return (
             <Fragment>
-                <InfoBlock title={Data["title"]} content={(
+                <SectionItem title={Data["title"]} content={(
                     <Fragment>
                         {children}
                     </Fragment>

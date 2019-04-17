@@ -1,1 +1,23 @@
-{}
+{
+  "title": "Projects",
+  "children": [
+    {
+      "title": "SilentTalk",
+      "description": "A chat application",
+      "details": {
+        "type": "Desktop/Web",
+        "year": "2012",
+        "technologies": ["Delphi", "MySQL", "PHP"]
+      }
+    },
+    {
+      "title": "ISED",
+      "description": "LSB algorithm based steganography application.",
+      "details": {
+        "type": "Desktop",
+        "year": "2012",
+        "technologies": ["C#", ".Net", "Steganography"]
+      }
+    }
+  ]
+}

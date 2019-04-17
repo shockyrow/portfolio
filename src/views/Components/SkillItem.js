@@ -1,8 +1,9 @@
 import React, {Component, Fragment} from 'react';
 import CircularProgressbar from 'react-circular-progressbar';
+import '../../assets/scss/SkillBlock.scss';
 import PropTypes from 'prop-types';
 
-class AwardBlock extends Component {
+class SkillItem extends Component {
     render() {
         return (
             <Fragment>
@@ -23,9 +24,9 @@ class AwardBlock extends Component {
     }
 }
 
-SkillBlock.propTypes = {
+SkillItem.propTypes = {
     title: PropTypes.string.isRequired,
     progress: PropTypes.number.isRequired,
 };
 
-export default AwardBlock;
+export default SkillItem;

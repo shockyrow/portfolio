@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import moment from 'moment';
-import InfoBlock from "../InfoBlock";
+import SectionItem from "../SectionItem";
 
 class About extends Component {
     age = moment().diff(moment([1994, 6, 28]), 'year');
@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return (
             <Fragment>
-                <InfoBlock title={"About"} content={(
+                <SectionItem title={"About"} content={(
                     <Fragment>
                         <p>
                             As long as I remember myself I wanted to become a successful Computer Engineer working for

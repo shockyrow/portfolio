@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import Welcome from "../Components/Sections/Welcome";
 import About from "../Components/Sections/About";
-import Skills from "../Components/Sections/Skills";
-import Footer from "../Components/Footer";
 import Educations from "../Components/Sections/Educations";
 import Experiences from "../Components/Sections/Experiences";
 import Languages from "../Components/Sections/Languages";
+import Skills from "../Components/Sections/Skills";
+import Projects from "../Components/Sections/Projects";
+import Accomplishments from "../Components/Sections/Accomplishments";
+import Footer from "../Components/Footer";
 import {
     ABOUT_LINK,
     EDUCATIONS_LINK,
@@ -17,7 +19,6 @@ import {
     ACCOMPLISHMENTS_LINK,
     CONTACT_LINK
 } from "../Components/Navbar";
-import Accomplishments from "../Components/Sections/Accomplishments";
 
 class App extends Component {
     render() {
@@ -41,7 +42,7 @@ class App extends Component {
                         <Skills/>
                     </div>
                     <div className="pb-3 pt-4" id={PROJECTS_LINK}>
-                        <Educations/>
+                        <Projects/>
                     </div>
                     <div className="pb-3 pt-4" id={ACCOMPLISHMENTS_LINK}>
                         <Accomplishments/>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-class InfoBlock extends Component {
+class SectionItem extends Component {
     render() {
         return (
             <div className="card border-white shadow-lg">
@@ -19,9 +19,9 @@ class InfoBlock extends Component {
     }
 }
 
-InfoBlock.propTypes = {
+SectionItem.propTypes = {
     title: PropTypes.string.isRequired,
     content: PropTypes.object.isRequired,
 };
 
-export default InfoBlock;
+export default SectionItem;
