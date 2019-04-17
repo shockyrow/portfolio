@@ -1,0 +1,75 @@
+{
+  "title": "Accomplishments",
+  "children": [
+    {
+      "type": "medal",
+      "title": "1st Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2011",
+      "description": "Regional Olympiad in Informatics"
+    },
+    {
+      "type": "medal",
+      "title": "1st Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2012",
+      "description": "Regional Olympiad in Informatics"
+    },
+    {
+      "type": "medal",
+      "title": "1st Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2013",
+      "description": "Regional Programming Olympiad"
+    },
+    {
+      "type": "medal",
+      "title": "2nd Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2013",
+      "description": "National Programming Olympiad"
+    },
+    {
+      "type": "medal",
+      "title": "3rd Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2012",
+      "description": "National Team Olympiad in Informatics"
+    },
+    {
+      "type": "medal",
+      "title": "3rd Place",
+      "location": "Almaty/Kazakhstan",
+      "year": "2012",
+      "description": "International Zhautykov Olympiad (Computer Science)"
+    },
+    {
+      "type": "medal",
+      "title": "3rd Place",
+      "location": "Almaty/Kazakhstan",
+      "year": "2013",
+      "description": "International Zhautykov Olympiad (Computer Science)"
+    },
+    {
+      "type": "cert",
+      "title": "Participation (12/24 Place)",
+      "location": "Ankara/Turkey",
+      "year": "2016",
+      "description": "STMCTF'16 (Capture The Flag)"
+    },
+    {
+      "type": "cert",
+      "title": "Participation (15/29 Place)",
+      "location": "Ankara/Turkey",
+      "year": "2017",
+      "description": "STMCTF'17 (Capture The Flag)"
+    },
+    {
+      "type": "cert",
+      "title": "Participation (25/48 Place)",
+      "location": "Ankara/Turkey",
+      "year": "2018",
+      "description": "STMCTF'18 (Capture The Flag)"
+    }
+  ]
+}

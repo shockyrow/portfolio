@@ -17,6 +17,7 @@ import {
     ACCOMPLISHMENTS_LINK,
     CONTACT_LINK
 } from "../Components/Navbar";
+import Accomplishments from "../Components/Sections/Accomplishments";
 
 class App extends Component {
     render() {
@@ -43,7 +44,7 @@ class App extends Component {
                         <Educations/>
                     </div>
                     <div className="pb-3 pt-4" id={ACCOMPLISHMENTS_LINK}>
-                        <Educations/>
+                        <Accomplishments/>
                     </div>
                     <div className="pb-3 pt-4" id={CONTACT_LINK}>
                         <Educations/>

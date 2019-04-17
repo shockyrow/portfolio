@@ -20,7 +20,7 @@ class Welcome extends Component {
                             </div>
 
                             <div className="oleo-script-font display-2 font-weight-bold text-dark shadowed-text">
-                                Ibrokhim Shokirov
+                                Ibrokhim Shokirov.
                             </div>
                         </div>
 

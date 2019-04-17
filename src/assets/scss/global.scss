@@ -63,3 +63,18 @@ code {
   @extend .badge, .badge-pill, .p-3;
   border-bottom-left-radius: 24px !important;
 }
+
+.gold-trophy {
+  color: #FFD700;
+  text-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+.silver-trophy {
+  color: #C0C0C0;
+  text-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+.bronze-trophy {
+  color: #CD7F32;
+  text-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}

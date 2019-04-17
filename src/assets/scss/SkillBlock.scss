@@ -1,22 +1,28 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 
+$primaryColor: $primary;
+$secondaryColor: rgba(0, 0, 0, .1);
+$shadowToDrop: drop-shadow(0 0 2px $primaryColor);
+
 .CircularProgressbar {
   width: 100%;
+  -webkit-filter: $shadowToDrop;
+  filter: $shadowToDrop;
 }
 
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: $info;
+  stroke: $primaryColor;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
-  stroke: rgba(0, 0, 0, 0.1);
+  stroke: $secondaryColor;
 }
 
 .CircularProgressbar .CircularProgressbar-text {
-  fill: $info;
+  fill: $primaryColor;
   font-size: 32px;
   font-weight: bold;
   dominant-baseline: middle;
@@ -24,11 +30,11 @@
 }
 
 .CircularProgressbar .CircularProgressbar-background {
-  fill: #d6d6d6;
+  fill: $secondaryColor;
 }
 
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
-  fill: $info;
+  fill: $primaryColor;
 }
 
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
