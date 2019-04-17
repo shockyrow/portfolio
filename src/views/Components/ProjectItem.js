@@ -7,7 +7,7 @@ class ProjectItem extends Component {
             (item, index) => (
                 <small className="d-flex">
                     <span className="text-capitalize text-secondary">{item}</span>:
-                    <span className="pl-2 text-info">{Array.isArray(this.props.details[item]) ? this.props.details[item].join(', ') : this.props.details[item]}</span>
+                    <span className="pl-2">{Array.isArray(this.props.details[item]) ? this.props.details[item].join(', ') : this.props.details[item]}</span>
                 </small>
             )
         );
