@@ -35,7 +35,7 @@ class Awards extends Component {
             <Fragment>
                 <SectionItem title={Data["title"]} content={(
                     <Fragment>
-                        <div className="row d-flex flex-wrap align-items-stretch justify-content-center">
+                        <div className="row d-flex flex-wrap align-items-stretch">
                             {children}
                             <div className="col-md-6 col-lg-4 my-2">
                                 <div className="h-100 w-100 d-flex align-items-center justify-content-center">

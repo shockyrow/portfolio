@@ -30,7 +30,7 @@ class Skills extends Component {
 
         return (
             <SectionItem title={Data["title"]} content={(
-                <div className="row d-flex justify-content-center">
+                <div className="row d-flex">
                     {children}
                     <div className="col-sm-6 col-md-4 col-lg-3 my-2">
                         <button onClick={this.toggleShow} className="btn btn-block btn-light border shadow-sm w-100 h-100">
