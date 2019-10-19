@@ -1,5 +1,6 @@
 {
-  "title": "Accomplishments",
+  "title": "Awards",
+  "visible": 5,
   "children": [
     {
       "type": "medal",
@@ -20,14 +21,14 @@
       "title": "1st Place",
       "location": "Dushanbe/Tajikistan",
       "year": "2013",
-      "description": "Regional Programming Olympiad"
+      "description": "Regional Olympiad in Informatics"
     },
     {
       "type": "medal",
       "title": "2nd Place",
       "location": "Dushanbe/Tajikistan",
       "year": "2013",
-      "description": "National Programming Olympiad"
+      "description": "National Olympiad in Informatics"
     },
     {
       "type": "medal",
@@ -51,22 +52,29 @@
       "description": "International Zhautykov Olympiad (Computer Science)"
     },
     {
+      "type": "medal",
+      "title": "3rd Place",
+      "location": "Dushanbe/Tajikistan",
+      "year": "2013",
+      "description": "Tajikistan Science Project Olympiad (TASPO)"
+    },
+    {
       "type": "cert",
-      "title": "12/24 Place",
+      "title": "12th/24 Place",
       "location": "Ankara/Turkey",
       "year": "2016",
       "description": "STMCTF'16 (Capture The Flag)"
     },
     {
       "type": "cert",
-      "title": "15/29 Place",
+      "title": "15th/29 Place",
       "location": "Ankara/Turkey",
       "year": "2017",
       "description": "STMCTF'17 (Capture The Flag)"
     },
     {
       "type": "cert",
-      "title": "25/48 Place",
+      "title": "25th/48 Place",
       "location": "Ankara/Turkey",
       "year": "2018",
       "description": "STMCTF'18 (Capture The Flag)"

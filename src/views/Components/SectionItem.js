@@ -7,7 +7,7 @@ class SectionItem extends Component {
             <div className="card border-white shadow-lg">
                 <div className="card-body text-justify">
                     <div className="py-2">
-                        <h5 className="opensans-title bg-light border border-light text-dark shadow rounded py-1 px-3 block-title">
+                        <h5 className="opensans-title bg-primary border border-primary text-light shadow rounded py-1 px-3 block-title">
                             {this.props.title}
                         </h5>
                     </div>

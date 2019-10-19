@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min';
+import 'font-awesome/scss/font-awesome.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

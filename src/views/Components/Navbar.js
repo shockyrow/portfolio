@@ -8,13 +8,13 @@ export const EXPERIENCES_LINK = "experiences";
 export const LANGUAGES_LINK = "languages";
 export const SKILLS_LINK = "skills";
 export const PROJECTS_LINK = "projects";
-export const ACCOMPLISHMENTS_LINK = "accomplishments";
+export const AWARDS_LINK = "awards";
 export const CONTACT_LINK = "contact";
 
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg rounded">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded"  style={{position: 'relative', zIndex: 10}}>
                 <a className="navbar-brand" href={"#" + HOME_LINK}>
                     <img src={Logo} width="30" height="30" className="p-1" alt=""/>
                 </a>
@@ -28,12 +28,6 @@ class Navbar extends Component {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#" + HOME_LINK}>
-                                Home
-                            </a>
-                        </li>
-
                         <li className="nav-item">
                             <a className="nav-link" href={"#" + ABOUT_LINK}>
                                 About
@@ -71,14 +65,8 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href={"#" + ACCOMPLISHMENTS_LINK}>
-                                Accomplishments
-                            </a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#" + CONTACT_LINK}>
-                                Contact
+                            <a className="nav-link" href={"#" + AWARDS_LINK}>
+                                Awards
                             </a>
                         </li>
                     </ul>

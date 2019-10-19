@@ -3,29 +3,23 @@ import PropTypes from 'prop-types';
 
 class AwardItem extends Component {
     render() {
-        let trophyClass = this.props.type === "medal" ? "fa-trophy" : "fa-certificate";
-
         return (
             <Fragment>
-                <div className="btn btn-block btn-light border shadow-sm p-3">
-                    <h6>
-                        <i className={"fa fa-4x px-2 text-white trophy " + trophyClass}/>
-                    </h6>
-
-                    <h6 className="pacifico-font text-secondary">
+                <div className="btn btn-block btn-light border shadow-sm p-3 award-bg">
+                    <p className="text-right">
                         {this.props.title}
-                    </h6>
+                    </p>
 
-                    <h5 className="opensans-title shadowed-text d-flex align-items-center justify-content-center" style={{height: '108px'}}>
+                    <h5 className="lead shadowed-text d-flex align-items-center justify-content-end text-right pl-5" style={{height: '108px'}}>
                         {this.props.description}
                     </h5>
 
-                    <h6 className="pacifico-font text-secondary">
-                        {this.props.year}
+                    <h6 className="lead small text-secondary text-right mb-0">
+                        {this.props.location}
                     </h6>
 
-                    <h6 className="pacifico-font text-secondary">
-                        {this.props.location}
+                    <h6 className="lead small text-secondary text-right">
+                        {this.props.year}
                     </h6>
                 </div>
             </Fragment>

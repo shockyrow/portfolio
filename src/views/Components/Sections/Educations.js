@@ -6,30 +6,36 @@ class Educations extends Component {
     render() {
         let children = Data["children"].map(
             (item, index) => (
-                <Fragment>
+                <Fragment key={"education" + index}>
                     {index !== 0 ? (
                         <div className="dropdown-divider my-3">
                         </div>
                     ) : null}
 
                     <div>
-                        <h6 className="pacifico-font text-secondary">
-                            {item["institution"]}
-                            <span className="text-muted pl-2">{item["duration"]}</span>
-                        </h6>
-
-                        <h4 className="opensans-title text-left shadowed-text">
+                        <h4 className="text-left shadowed-text">
                             {item["title"]}
                         </h4>
 
-                        <h6 className="d-flex opensans-title text-secondary">
-                            GPA:
-                            <span className="text-muted pl-2">{item["GPA"]}</span>
+                        <h5 className="text-left shadowed-text">
+                            {item["degree"]}
+                        </h5>
+
+                        <h6 className="text-left shadowed-text">
+                            {item["institution"]}
                         </h6>
 
-                        <h5>
+                        <div className="small">
+                            GPA: {item["GPA"]}
+                        </div>
+
+                        <h6 className="d-flex lead small text-secondary">
+
+                        </h6>
+
+                        <p className="lead">
                             {item["description"]}
-                        </h5>
+                        </p>
                     </div>
                 </Fragment>
             )

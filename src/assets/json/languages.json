@@ -3,31 +3,31 @@
   "children": [
     {
       "name": "Tajik",
-      "progress": 100
+      "level": "Native"
     },
     {
       "name": "Persian",
-      "progress": 95
-    },
-    {
-      "name": "English",
-      "progress": 88
+      "level": "C2"
     },
     {
       "name": "Turkish",
-      "progress": 85
+      "level": "C1"
     },
     {
-      "name": "Dari",
-      "progress": 78
+      "name": "English",
+      "level": "C1"
     },
     {
       "name": "Russian",
-      "progress": 55
+      "level": "B1"
     },
     {
       "name": "Arabic",
-      "progress": 25
+      "level": "A2"
+    },
+    {
+      "name": "French",
+      "level": "A1"
     }
   ]
 }

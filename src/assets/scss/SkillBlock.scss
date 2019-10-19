@@ -1,9 +1,9 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 
-$primaryColor: $primary;
+$primaryColor: $dark;
 $secondaryColor: rgba(0, 0, 0, .1);
-$shadowToDrop: drop-shadow(0 0 2px $primaryColor);
+$shadowToDrop: drop-shadow(0 0 0 $primaryColor);
 
 .CircularProgressbar {
   width: 100%;
@@ -14,11 +14,13 @@ $shadowToDrop: drop-shadow(0 0 2px $primaryColor);
 .CircularProgressbar .CircularProgressbar-path {
   stroke: $primaryColor;
   stroke-linecap: round;
+  stroke-width: 3px;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: $secondaryColor;
+  stroke-width: 5px;
 }
 
 .CircularProgressbar .CircularProgressbar-text {

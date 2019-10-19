@@ -5,10 +5,10 @@ class ProjectItem extends Component {
     render() {
         let details = Object.keys(this.props.details).map(
             (item, index) => (
-                <small className="d-flex">
+                <h6 className="d-flex" key={"project" + index}>
                     <span className="text-capitalize text-secondary">{item}</span>:
                     <span className="pl-2">{Array.isArray(this.props.details[item]) ? this.props.details[item].join(', ') : this.props.details[item]}</span>
-                </small>
+                </h6>
             )
         );
 
@@ -18,13 +18,11 @@ class ProjectItem extends Component {
                     {this.props.title}
                 </h4>
 
-                <h5>
-                    {this.props.description}
-                </h5>
+                {details}
 
-                <div className="border-top pt-2">
-                    {details}
-                </div>
+                <p className="lead">
+                    {this.props.description}
+                </p>
             </div>
         );
     }

@@ -6,28 +6,28 @@ class Experiences extends Component {
     render() {
         let children = Data["children"].map(
             (item, index) => (
-                <Fragment>
+                <Fragment key={"experience" + index}>
                     {index !== 0 ? (
                         <div className="dropdown-divider my-3">
                         </div>
                     ) : null}
 
                     <div>
-                        <h6 className="pacifico-font text-secondary">
-                            {item["company"]}
-                        </h6>
-
-                        <h4 className="opensans-title text-left shadowed-text">
+                        <h4 className="text-justify shadowed-text">
                             {item["title"]}
                         </h4>
 
-                        <h6 className="d-flex opensans-title text-muted small">
+                        <h6 className="text-justify">
+                            {item["company"]}
+                        </h6>
+
+                        <h6 className="d-flex lead text-muted small">
                             {item["duration"]}
                         </h6>
 
-                        <h5>
+                        <p className="lead">
                             {item["description"]}
-                        </h5>
+                        </p>
                     </div>
                 </Fragment>
             )

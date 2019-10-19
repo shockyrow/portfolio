@@ -2,32 +2,46 @@
   "title": "Experiences",
   "children": [
     {
-      "title": "Php Developer",
-      "company": "Paysera",
-      "location": "Ankara/TURKEY",
-      "duration": "2018 - NOW",
-      "description": "Description and responsibilities here!"
+      "title": "Full-Stack Php Developer",
+      "company": "Alif Sarmoya",
+      "location": "Dushanbe/TAJIKISTAN",
+      "duration": "July 2019 - August 2019 (2 months)",
+      "description": "Was responsible for developing CORE (Centralized Online Real-Time Exchange) banking system. I was responsible for creating the advances and submissions module. I had to leave this job after only 2 months, because I had to move to Tomsk/RUSSIA for my master's degree."
     },
     {
-      "title": "Web Security Analyst & Secure Developer",
+      "title": "Full-Stack Php Developer",
+      "company": "Paysera",
+      "location": "Ankara/TURKEY",
+      "duration": "October 2018 - July 2019 (10 months)",
+      "description": "Was responsible for integration of partners payment system as libraries/bundles for our system. All the integrated systems must have unit and/or functional tests. After integration finished the library gets tested for security issues and then deployed to production."
+    },
+    {
+      "title": "Full-Stack Php Developer",
+      "company": "Vairosoft",
+      "location": "Ankara/TURKEY",
+      "duration": "July 2018 - September 2018 (3 months)",
+      "description": "Was responsible for developing and maintaining our environment related, legal documents management system. This system based on added documents, creates notifications and calendar events reminding when it needs to be changed."
+    },
+    {
+      "title": "Web Security Analyst",
       "company": "BEAM Teknoloji A. Ş.",
       "location": "Ankara/TURKEY",
-      "duration": "2017 - 2018",
-      "description": "Description and responsibilities here!"
+      "duration": "June 2017 - August 2018 (1 year 2 months)",
+      "description": "Was responsible for penetration testing and analysing web applications, which are developed in variety of languages and frameworks. The results of each analysis are then documented with at least on solution for each found vulnerabilities. Also was responsible for developing the company's phishing application."
     },
     {
       "title": "Java Developer",
       "company": "PTT Genel Müdürlüğü",
       "location": "Ankara/TURKEY",
-      "duration": "Summer 2016",
-      "description": "Description and responsibilities here!"
+      "duration": "Summer 2016 (3 months)",
+      "description": "Was responsible for developing a desktop application to manage projects. It was basically a CRUD system with authentication and an advanced listing feature. Users not only could filter rows and enable/disable columns for listing, but also were able to join tables export data as Excel file."
     },
     {
-      "title": "C# Developer",
+      "title": "Full-Stack C# Developer",
       "company": "İm Park Eğitim Bilişim Ltd. Şti.",
       "location": "Ankara/TURKEY",
-      "duration": "January 2016 - May 2016",
-      "description": "Description and responsibilities here!"
+      "duration": "January 2016 - May 2016 (5 months)",
+      "description": "Was responsible for developing distance Turkish learning system using MVC and Entity framework."
     }
   ]
 }

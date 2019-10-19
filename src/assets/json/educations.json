@@ -2,19 +2,30 @@
   "title": "Educations",
   "children": [
     {
-      "title": "BSc. Degree in Computer Engineering",
+      "degree": "Master of Engineering",
+      "title": "Applied Mathematics and Computer Science",
+      "duration": "2019 - Present",
+      "location": "Tomsk/RUSSIA",
+      "institution": "Tomsk Polytechnic University",
+      "description": "I always wanted to get my master's degree someday. Well when I had the opportunity, I accepted it. Because I just started it, I can't tell much about it. Currently I am working on my own MVC framework in PHP. This project is all based on creating a good architecture. It is mostly based on plug and play technology.",
+      "GPA": "Unknown"
+    },
+    {
+      "degree": "Bachelor of Science",
+      "title": "Computer Engineering",
       "duration": "2014 - 2018",
       "location": "Ankara/TURKEY",
       "institution": "Gazi University",
-      "description": "Description and activities here!",
+      "description": "University was the time I really started to improve my skills. I finished many project while I was studying. These project were security, real-time, web and desktop based applications. I also participated in security competitions CTFs. My graduation project was based on using data mining in search engines to make them intelligent. I also had lots of experiences by doing internship and part-time job in different companies.",
       "GPA": "2.85/4"
     },
     {
-      "title": "High School Degree",
+      "degree": "High School",
+      "title": "Information Technology",
       "duration": "2008 - 2013",
       "location": "Dushanbe/TAJIKISTAN",
       "institution": "Lyceum for Gifted Students",
-      "description": "Description and activities here!",
+      "description": "High school was a life changer for me. It was then that I got into programming. I participated in many international and national competitions and collected many medal, awards and certificates. I also started web programming with PHP here. I also participated in many social events. Leadership week is one of these social events, in which our teachers select some of us to lead the school and I was selected to be vice principle and computer teacher. I also played table tennis, basketball and volleyball.",
       "GPA": "5.0/5"
     }
   ]

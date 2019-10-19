@@ -7,7 +7,7 @@ class Projects extends Component {
     render() {
         let children = Data["children"].map(
             (item, index) => (
-                <Fragment>
+                <Fragment key={"project" + index}>
                     {index !== 0 ? (
                         <div className="dropdown-divider my-3">
                         </div>

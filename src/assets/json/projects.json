@@ -2,21 +2,51 @@
   "title": "Projects",
   "children": [
     {
-      "title": "SilentTalk",
-      "description": "A chat application",
+      "title": "PHPSoda",
+      "description": "A simple MVC framework for PHP. It contains many features. This project is all about good architecture and design. The main concept behind it is the use of plug and play technology in it. All the modules of this framework are very easy to setup and configure, not only for PHPSoda, but for any other application you have.",
       "details": {
-        "type": "Desktop/Web",
-        "year": "2012",
-        "technologies": ["Delphi", "MySQL", "PHP"]
+        "platforms": ["Web"],
+        "stack": ["PHP 7", "Composer", "Apache HTTP Server", "Plug and Play Technology"]
+      }
+    },
+    {
+      "title": "Araturka",
+      "description": "National search engine for Turkey, which uses data mining to get keywords from page context. This system was combination of to smaller systems: Crawler and User Interface. All the data mining related implementation were inside crawler. The keyword extraction algorithm was called RAKE (Rapid Automatic Keyword Extraction).",
+      "details": {
+        "platforms": ["Web"],
+        "stack": ["C# .Net", "MVC Framework", "Entity Framework", "OracleDB", "Data Mining", "Text Mining"]
+      }
+    },
+    {
+      "title": "SQLBear",
+      "description": "A penetration testing tool that automates the process of detecting and exploiting SQL injection flaws. I was inspired by sqlmap and manually injecting SQL. The application was a desktop application created with C#.",
+      "details": {
+        "platforms": ["Web"],
+        "stack": ["C# .Net", "WCF", "Web Security", "SQL Injection", "Exploit", "Penetration Testing Tool"]
+      }
+    },
+    {
+      "title": "AloKanka",
+      "description": "A real-time chat application using TCP/IP sockets. The application used custom message encoder in order to protect messages privacy.",
+      "details": {
+        "platforms": ["Desktop", "Web"],
+        "stack": ["Java", "Swing Framework", "MySQL", "TCP/IP", "Chat application", "Real-Time Messaging"]
       }
     },
     {
       "title": "ISED",
-      "description": "LSB algorithm based steganography application.",
+      "description": "LSB algorithm based steganography encoding and decoding application. The application was able to store data up to 500 KB in a 2 MB image. The application was a desktop application and was developed for personal growth.",
       "details": {
-        "type": "Desktop",
-        "year": "2012",
-        "technologies": ["C#", ".Net", "Steganography"]
+        "platforms": ["Desktop"],
+        "stack": ["C#", ".Net", "Steganography"]
+      }
+    },
+    {
+      "title": "SilentTalk",
+      "description": "A chat application that I created while I was in High School. The application was created using Delphi language and MySQL was used as the database. Because of my lack of programming knowledge back then, this was not a real-time chat application.",
+      "details": {
+        "platforms": ["Desktop", "Web"],
+        "stack": ["Delphi", "MySQL", "Photoshop"]
       }
     }
   ]

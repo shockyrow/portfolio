@@ -1,109 +1,78 @@
 {
   "title": "Skills",
+  "visible": 5,
   "children": [
     {
-      "name": "C/C++",
-      "progress": 95
-    },
-    {
-      "name": "C#",
-      "progress": 75
-    },
-    {
-      "name": "Java",
-      "progress": 80
-    },
-    {
-      "name": "Php",
-      "progress": 95
-    },
-    {
-      "name": "Python",
-      "progress": 65
-    },
-    {
-      "name": "Delphi",
-      "progress": 70
-    },
-    {
-      "name": "HTML5",
-      "progress": 95
-    },
-    {
-      "name": "CSS3",
-      "progress": 95
-    },
-    {
-      "name": "JavaScript",
-      "progress": 90
-    },
-    {
-      "name": "TypeScript",
-      "progress": 70
-    },
-    {
-      "name": "SQL",
-      "progress": 80
-    },
-    {
-      "name": "Spring",
-      "progress": 60
-    },
-    {
-      "name": "Spring Boot",
-      "progress": 70
-    },
-    {
-      "name": "Symfony",
-      "progress": 80
+      "name": "PHP",
+      "level": "5/5"
     },
     {
       "name": "Laravel",
-      "progress": 90
+      "level": "5/5"
     },
     {
-      "name": "MySQL",
-      "progress": 90
+      "name": "SQL",
+      "level": "5/5"
     },
     {
-      "name": "MSSQL",
-      "progress": 85
+      "name": "HTML5",
+      "level": "5/5"
     },
     {
-      "name": "Oracle DB",
-      "progress": 65
+      "name": "CSS3",
+      "level": "5/5"
     },
     {
-      "name": "MongoDB",
-      "progress": 75
-    },
-    {
-      "name": "SQLite",
-      "progress": 65
-    },
-    {
-      "name": "PostgreSQL",
-      "progress": 75
-    },
-    {
-      "name": "Ubuntu",
-      "progress": 80
-    },
-    {
-      "name": "Kali",
-      "progress": 75
-    },
-    {
-      "name": "Mint",
-      "progress": 80
-    },
-    {
-      "name": "CentOS",
-      "progress": 80
+      "name": "JavaScript",
+      "level": "5/5"
     },
     {
       "name": "Git",
-      "progress": 90
+      "level": "5/5"
+    },
+    {
+      "name": "Ubuntu",
+      "level": "5/5"
+    },
+    {
+      "name": "MySQL",
+      "level": "5/5"
+    },
+    {
+      "name": "Symfony",
+      "level": "4/5"
+    },
+    {
+      "name": "C/C++",
+      "level": "4/5"
+    },
+    {
+      "name": "C#",
+      "level": "3/5"
+    },
+    {
+      "name": "Java",
+      "level": "3/5"
+    },
+    {
+      "name": "MongoDB",
+      "level": "3/5"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "3/5"
+    },
+    {
+      "name": "Kali",
+      "level": "3/5"
+    },
+    {
+      "name": "Python",
+      "level": "2/5"
+    },
+    {
+      "name": "Delphi",
+      "level": "2/5"
     }
   ]
 }

@@ -47,7 +47,6 @@ code {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 42px;
   height: 42px;
 }
 
@@ -79,4 +78,11 @@ code {
 
 .bronze-trophy {
   color: #CD7F32;
+}
+
+.award-bg {
+  background: url('../img/cert_border.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }

@@ -1,0 +1,33 @@
+{
+  "greeting": "Hello, I am",
+  "name": "Ibrokhim Shokirov",
+  "titles": [
+    "Computer Engineer",
+    "Developer",
+    "Web Developer",
+    "Senior PHP Developer",
+    "Junior Web Security Analyst"
+  ],
+  "links": [
+    {
+      "title": "LinkedIn",
+      "url": "https://linkedin.com/ibrokhim.shokirov",
+      "class": "fa-linkedin"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lucky-bug",
+      "class": "fa-github-alt"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/channel/UCuTbV9kQZ9u1v0_uYcr7bKQ",
+      "class": "fa-youtube-play"
+    },
+    {
+      "title": "Email",
+      "url": "mailto:ibrokhim.shokirov@gmail.com",
+      "class": "fa-envelope"
+    }
+  ]
+}
